@@ -41,16 +41,23 @@ img {
 
 .category {
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .product-desc {
     padding: 25px;
 }
 
+.prices {
+    display: flex;
+    align-items: center;
+}
+
 .sale-price {
     font-family: "Fraunces", serif;
     color:hsl(158, 36%, 37%);
     font-size: 1.7rem;
+    margin-right: 10px;
 }
 
 .list-price {
