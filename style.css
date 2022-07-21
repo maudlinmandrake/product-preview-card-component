@@ -28,6 +28,7 @@ main {
 section {
     display: flex;
     flex-direction: row;
+    border-radius: 20px;
 }
 
 .category {
@@ -36,6 +37,7 @@ section {
 
 .product-desc {
     background-color: hsl(0, 0%, 100%);
+    padding: 25px;
 }
 
 .sale-price {
