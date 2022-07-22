@@ -34,7 +34,8 @@ section {
 }
 
 img {
- width: 50%;
+ flex: 1 0 50%;
+ object-fit: cover;
  border-top-left-radius: 20px;
  border-bottom-left-radius: 20px;
 }
