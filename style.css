@@ -78,6 +78,14 @@ button {
     width: 100%;
 }
 
+button:hover {
+    background-color: hsl(158, 45%, 20%);
+}
+
+button:active {
+    background-color: hsl(158, 45%, 20%);
+}
+
 .fa-cart-shopping {
     margin-right: 10px;
 }
