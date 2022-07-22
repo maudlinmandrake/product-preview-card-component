@@ -15,7 +15,7 @@ body {
 h1 {
     font-family: "Fraunces", serif;
     color: hsl(212, 21%, 14%);
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 main {
@@ -45,19 +45,21 @@ img {
 }
 
 .product-desc {
-    padding: 25px;
+    padding: 35px;
 }
 
 .prices {
     display: flex;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sale-price {
     font-family: "Fraunces", serif;
     color:hsl(158, 36%, 37%);
     font-size: 1.7rem;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .list-price {
@@ -66,12 +68,18 @@ img {
 
 button {
     font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     padding: 20px;
     border-style: none;
     border-radius: 10px;
-    width: 80%;
+    height: 50px;
+    width: 100%;
+}
+
+.fa-cart-shopping {
+    margin-right: 10px;
 }
 
 .attribution { 
@@ -80,5 +88,19 @@ button {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(158, 36%, 37%); 
 }
+
+@media only screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+        width: 400px;
+    }
+
+    img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+       }
+  }
