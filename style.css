@@ -41,7 +41,7 @@ img {
 
 .category {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .product-desc {
@@ -95,6 +95,18 @@ button {
     section {
         flex-direction: column;
         width: 400px;
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .prices {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     img {
